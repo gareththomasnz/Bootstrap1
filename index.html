@@ -9,7 +9,7 @@
     <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
         <style>
             .divcol{
@@ -25,12 +25,11 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
+    <section class="container">
         <div class="container-fluid">
-            <div class="row divcol">Header</div>
+            <div class="row divcol col-md-12">Header</div>
             
               <nav class="navbar">
-              
                 <button class="navbar-toggle" data-toggle="collapse" data-target="#wrap">
                     &#9776;
                 </button>
@@ -49,38 +48,54 @@
                         </ul>
                     </div>
             </nav>
-            <div class="row divcol">
-                <div class="col-md-3 divcol">
-                    <ul class="nav navbar-nav nav-stacked">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Services</a>
-                            <ul class="dropdown-menu">
-                                <li>Mobile Development</li>
-                                <li>Software Development</li>
-                                <li>Web Development</li>
+            <div class="row">
+                    <div class="col-sm-3">
+                      <div class="sidebar-nav">
+                        <div class="navbar navbar-default" role="navigation">
+                          <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                            </button>
+                            <span class="visible-xs navbar-brand">Sidebar menu</span>
+                          </div>
+                          <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                            <ul class="nav navbar-nav">                   
+                                          <li class="active"><a href="#">Home</a></li>
+                                          <li><a href="#">About</a></li>
+                                          <li class="dropdown">
+                                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Careers</a>
+                                              <ul class="dropdown-menu">
+                                                  <li><a href="#">Mobile development</a></li>
+                                                  <li><a href="#">Software Development</a></li>
+                                                  <li><a href="#">Web Development</a></li>
+                                              </ul>
+                                          </li>
+                                          <li><a href="#">Portfolio</a></li>
+                                          <li><a href="#">Store</a></li>
+                                          <li class="dropdown">
+                                              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Careers</a>
+                                              <ul class="dropdown-menu">
+                                                  <li><a href="#">Android & IOS Developers</a></li>
+                                                  <li><a href="#">Desktop Application Developers</a></li>
+                                                  <li><a href="#">Web Designers & Coders</a></li>
+                                              </ul>
+                                          </li>
+                                          <li><a href="#">Contact</a></li>
+                                          <li><a href="#">Sitemap</a></li>
                             </ul>
-                           </li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Store</a></li>
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Careers</a>
-                            <ul class="dropdown-menu">
-                                <li>Android & IOS Developers</li>
-                                <li>Desktop Application Developers</li>
-                                <li>Web Designers & Coders</li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Sitemap</a></li>
-                    </ul>
-                </div>
+                          </div><!--/.nav-collapse -->
+                        </div>
+                      </div>
+                    </div>                        
                 <div class="col-md-9 divcol">Content</div>
             </div>
-            <footer class="row divcol">Footer</footer>   
+            
+            <footer class="row divcol col-md-12">Footer</footer>   
         </div>
-    </div>             
+    </section>             
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
