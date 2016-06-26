@@ -25,28 +25,53 @@
     <![endif]-->
   </head>
   <body>
-    <header class="container-fluid">
-        <div class="container">
+    <div class="container">
+        <div class="container-fluid">
             <div class="row divcol">Header</div>
-            <div class="row divcol">
-                    <ul class="nav nav-pills">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Store</a></li>
-                        <li><a href="#">Policy</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-            </div>
+            
+              <nav class="navbar">
+              
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#wrap">
+                    &#9776;
+                </button>
+                    <div class="navbar-header">
+                        <a href="#"  class="navbar-brand">Add Image</a>
+                    </div>
+                    
+                    <div class="collapse navbar-collapse" id="wrap">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Store</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+            </nav>
             <div class="row divcol">
                 <div class="col-md-3 divcol">
-                    <ul class="nav">
+                    <ul class="nav navbar-nav nav-stacked">
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
-                        <li><a href="#">Services</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Services</a>
+                            <ul class="dropdown-menu">
+                                <li>Mobile Development</li>
+                                <li>Software Development</li>
+                                <li>Web Development</li>
+                            </ul>
+                           </li>
                         <li><a href="#">Portfolio</a></li>
                         <li><a href="#">Store</a></li>
-                        <li><a href="#">Careers</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Careers</a>
+                            <ul class="dropdown-menu">
+                                <li>Android & IOS Developers</li>
+                                <li>Desktop Application Developers</li>
+                                <li>Web Designers & Coders</li>
+                            </ul>
+                        </li>
                         <li><a href="#">Contact</a></li>
                         <li><a href="#">Sitemap</a></li>
                     </ul>
@@ -55,10 +80,7 @@
             </div>
             <footer class="row divcol">Footer</footer>   
         </div>
-                  
-    </header>
-
-
+    </div>             
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
