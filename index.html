@@ -21,7 +21,7 @@
   <body>
     <section class="container divcol">
         <div class="container-fluid">
-            <div class="header row col-md-12">
+            <div class="header row col-md-12 hidden-xs">
                 
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
@@ -80,7 +80,7 @@
                         <a href="#"  class="navbar-brand">Add Image</a>
                     </div>
                     
-                    <div class="collapse navbar-collapse" id="wrap">
+                    <div class="collapse navbar-collapse navbartop" id="wrap">
                         <ul class="nav navbar-nav">
                             <li class="active"><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
@@ -136,7 +136,27 @@
                 <section class="col-md-9 divcol content">Content</section>
             </div>
             
-            <footer class="row divcol col-md-12">Footer</footer>   
+            <footer class="row divcol col-md-12 hidden-xs">
+                
+                              <nav class="navbar">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#wrap">
+                    &#9776;
+                </button>
+                    <div class="collapse navbar-collapse navbarfooter" id="wrap">
+                        <ul class="nav navbar-nav ">
+                            <li class="active"><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Store</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Policy</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+            </nav>
+                
+            </footer>   
         </div>
     </section>             
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
