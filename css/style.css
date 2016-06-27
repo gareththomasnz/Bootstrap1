@@ -20,6 +20,10 @@ html body {
     padding-left:0;
     padding-right:0;
 }
+.container-fluid{
+    padding-left:0px;
+    padding-right:0px;
+}
 
 .header{
     width:100%;
@@ -29,10 +33,14 @@ html body {
 footer{
     background-color:#E1ECBB;
     width:100%;
+    padding:0px;
 }
 
 .divcol{
     border:1px solid black;
+}
+.navcol{
+    background-color:#ACB88A;
 }
 .content{
     background-color:white;
@@ -43,6 +51,10 @@ footer{
   vertical-align: top;
 }
 
+.navbar{
+    margin-bottom:0px;
+}
+
 .navbarfooter{
   text-align: center;
 }
@@ -50,6 +62,21 @@ footer{
 
 .navbartop{
   text-align: right;
+}
+
+.vertmenu{
+    background-color:#ACB88A;
+}
+
+/*  to center carousel */
+
+.col-md-12{
+    padding-right:0px;
+    padding-left:0px;
+}
+.row{
+    margin-right:-15px;
+    margin-left:0px;
 }
 
 /* make sidebar nav vertical */ 
