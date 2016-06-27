@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 html body { 
         background-image:url('../img/bg.jpg');
         background-position:0 0;
@@ -5,6 +11,13 @@ html body {
  }
 .container{   
     margin-top:40px;
+    background-color:white;
+    height:auto;
+}
+
+.header{
+    width:100%;
+    height:auto;
 }
 
 footer{
@@ -12,7 +25,7 @@ footer{
 }
 .divcol{
     border:1px solid black;
-    height:200px
+    height:200px;
 }
 .content{
     background-color:white;
