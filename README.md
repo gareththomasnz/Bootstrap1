@@ -1,6 +1,6 @@
 # Bootstrap1
 
-First Bootstrap Tutorial
+Responsive Website Rewrite Using Bootstrap
 
 
 ## Built With
@@ -14,7 +14,7 @@ Gareth Thomas
 
 ## License
 
-This is coded from a commercial course - not public domain
+This code is copyright Gareth Thomas http://www.Track-n-Test.com 2016
 
 ## Acknowledgments
 
