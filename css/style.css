@@ -42,6 +42,7 @@ footer{
 
 .content{
     background-color:white;
+    height:560px;
 }
 .navbar .navbar-nav {
   display: inline-block;
@@ -108,7 +109,19 @@ footer{
     border-bottom-color:#899077;
 }
 .sidenav li.active a{
-    background-color:#9CA573;
+    background-color:#747c50;
+}
+.sidenav li.active:hover a{
+    background-color:#747c50;
+}
+.sidenav li:hover a{
+    background-color:#747c50;
+}
+.navbartop li:hover a{
+    background-color:#747c50;
+}
+.navbarfooter li:hover a{
+    background-color:#ACB88A;
 }
 .navcol{
     background-color:#ACB88A;
