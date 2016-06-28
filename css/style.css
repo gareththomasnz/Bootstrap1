@@ -130,6 +130,17 @@ footer{
     padding-bottom:30px;
 }
 
+.content-footer{
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.row-img{
+    display:block;
+    float:left;
+    margin-right:47px;
+}
+
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
   .sidebar-nav .navbar .navbar-collapse {
