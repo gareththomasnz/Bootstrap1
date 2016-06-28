@@ -111,10 +111,20 @@ footer{
 .sidenav li.active a{
     background-color:#747c50;
 }
+
 .sidenav li.active:hover a{
     background-color:#747c50;
 }
 .sidenav li:hover a{
+    background-color:#747c50;
+}
+.sidenav li a:visited{
+    background-color:#b2b992;
+}
+.sidenav li a:visited:hover{
+    background-color:#747c50;
+}
+.sidenav li.active a:visited{
     background-color:#747c50;
 }
 .navbartop li:hover a{
