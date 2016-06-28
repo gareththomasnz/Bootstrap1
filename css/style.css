@@ -140,6 +140,19 @@ footer{
     float:left;
     margin-right:47px;
 }
+.footer-row-img{
+    display:block;
+    float:left;
+    margin-right:47px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.footer-img{
+    width:70%;
+    display: block;  
+    margin-right: auto;  
+    margin-left: auto;
+}
 
 /* make sidebar nav vertical */ 
 @media (min-width: 768px) {
