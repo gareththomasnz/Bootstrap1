@@ -139,6 +139,9 @@ footer{
 .navbartop li a{
     border-radius: 10px;
 }
+.hidden-md .navbartop li a{
+    border-radius: 10px;
+}
 .navbarfooter li a{
     border-radius: 10px;
 }
