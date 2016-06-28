@@ -39,9 +39,7 @@ footer{
 .divcol{
     border:1px solid black;
 }
-.navcol{
-    background-color:#ACB88A;
-}
+
 .content{
     background-color:white;
 }
@@ -53,15 +51,28 @@ footer{
 
 .navbar{
     margin-bottom:0px;
+    border:0px;
 }
 
 .navbarfooter{
   text-align: center;
 }
-
+.navbarfooter ul li a{
+  color:black;
+}
 
 .navbartop{
-  text-align: right;
+    text-align: right;
+    padding-right:0px;
+    background-image:url('../img/nav.jpg');
+    background-repeat:no-repeat;
+    background-position:left bottom;
+}
+
+.navbartop ul li a{
+    background-color:#3E5014;
+    color:white;
+
 }
 
 .vertmenu{
@@ -77,6 +88,33 @@ footer{
 .row{
     margin-right:-15px;
     margin-left:0px;
+}
+
+.sidenav li a{
+    width:70%;
+    margin:5px;
+    margin-left:auto;
+    margin-right:auto;
+    border-width:8px;
+    border-radius:15px;
+    border:5px groove;
+    background-color:#9CA573;
+    color:white;
+    text-align: center;
+    font-size:120%;
+    border-right-color:#899077;
+    border-left-color:#ASAD8D;
+    border-top-color:#ASAD8D;
+    border-bottom-color:#899077;
+}
+.sidenav li.active a{
+    background-color:#9CA573;
+}
+.navcol{
+    background-color:#ACB88A;
+    margin:0px;
+    padding-top:30px;
+    padding-bottom:30px;
 }
 
 /* make sidebar nav vertical */ 
