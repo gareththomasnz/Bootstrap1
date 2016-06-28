@@ -123,6 +123,9 @@ footer{
 .navbarfooter li:hover a{
     background-color:#ACB88A;
 }
+.navbar-header{
+    background-color:#ACB88A;
+}
 .navcol{
     background-color:#ACB88A;
     margin:0px;
